@@ -23,21 +23,11 @@ The lectures form the theoretical core of the course, covering cryptographic fou
 
 The aim is not to provide a tool-specific certification course, but to help students understand the principles behind cloud security today and the ideas likely to shape trustworthy cloud systems in the future.
 
-### [COMP2123: Data Structures and Algorithms (2025)](https://www.sydney.edu.au/units/COMP2123)
-
-**University of Sydney · Undergraduate · Computer Science**
-
-The central question in this unit is simple but powerful: how do we organise data and design algorithms so that programs remain efficient as problem sizes grow?
-
-The course develops algorithmic thinking through asymptotic analysis, abstract data types, trees, heaps, hashing, graphs, shortest paths, minimum spanning trees, greedy algorithms, divide-and-conquer, and related topics. My aim is to help students move beyond memorising standard algorithms: a good algorithmic solution requires choosing the right representation, proving why the method works, understanding its cost, and recognising when a different approach is needed.
-
-The course is informed by classic algorithm-design material and modern expositions of algorithms, including texts by Goodrich and Tamassia, Jeff Erickson, and Tim Roughgarden.
-
 ---
 
 ## Previous teaching
 
-- **CSEC5615: Cloud Security** — 2025
+- **COMP2123: [Data Structures and Algorithms](https://www.sydney.edu.au/units/COMP2123)** - 2025
 - **COMP2022: Models of Computation** — co-taught, 2024
 
 At FAU, I was a teaching assistant for several courses and seminars in cryptography, cryptocurrencies, and theoretical computer science, including:

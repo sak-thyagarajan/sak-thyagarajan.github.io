@@ -1,22 +1,22 @@
 ---
 layout: page
-title: Join my group
-permalink: /join-my-group/
-description: Prospective PhD, Honours, MSc, and research students
+title: Join
+permalink: /join/
+description: Information for prospective PhD, Honours, MSc, and research students
 nav: true
 nav_order: 1
 ---
 
 <div class="join-page">
-    <p>
-      Welcome! If you like security, cryptography, and blockchains, and you enjoy turning
-      “this should work” into “this provably works”, you might fit right in.
-    </p>
+  <p>
+    Welcome! If you like security, cryptography, and blockchains, and you enjoy turning
+    “this should work” into “this provably works”, you might fit right in.
+  </p>
 
   <section class="join-section">
     <h2>What we work on</h2>
     <p>
-      Broadly, my group works on cryptography and secure protocols, especially where
+      Broadly, we work on cryptography and secure protocols, especially where
       rigorous theory meets real systems.
     </p>
 
@@ -145,6 +145,54 @@ nav_order: 1
 
     <div class="join-note">
       I will always prefer a clear message over a long one. Concise is the mantra.
+    </div>
+
+  </section>
+
+  <!-- NEW FAQ SECTION -->
+  <section class="join-section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">Do I need to know cryptography already?</h3>
+      <p>
+        No, but you should be comfortable with mathematical reasoning and willing to read proofs carefully.
+      </p>
+    </div>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">Do I need to be a strong programmer?</h3>
+      <p>
+        It is helpful, but not required. Some projects are proof-heavy and purely theoretical, while others involve building prototypes and running benchmarks. But this skill can be picked up along the way (Hint: There are AI tools to help you here.)
+      </p>
+    </div>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">Can undergraduate students work with you?</h3>
+      <p>
+        Yes, through honours programs, coursework research projects, reading groups, or summer-style projects, depending on my current availability.
+      </p>
+    </div>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">What should I read before emailing?</h3>
+      <p>
+        A great starting point is to look at recent papers spanning MPC/threshold cryptography, blockchain fairness, and post-quantum cryptography. Mentioning a specific paper from my recent publications that caught your eye is always a great way to start a conversation.
+      </p>
+    </div>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">Are there funded PhD positions?</h3>
+      <p>
+        Funding generally depends on university scholarship rounds (such as the RTP at the University of Sydney) and specific project grants. Strong applicants should contact me early so we can discuss timelines, project fit, and scholarship applications.
+      </p>
+    </div>
+
+    <div class="join-card" style="margin-bottom: 1rem;">
+      <h3 style="margin-bottom: 0.5rem; font-size: 1.05rem;">What makes a good first email?</h3>
+      <p>
+        Following the subject line format and providing the materials requested above! Please do not send a generic email; I care much more about a specific, thoughtful note regarding why our interests align than a long, pasted template.
+      </p>
     </div>
 
   </section>

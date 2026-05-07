@@ -143,7 +143,7 @@ nav_order: 5
     <div class="talk-content">
       <div class="talk-title">Monero Talk</div>
       <p class="talk-description">
-        The interaction was focussed on building scalability solutions for Monero.
+        The interaction was focused on building scalability solutions for Monero.
         We spoke about my work on Omniring, PayMo and Sleepy Channels.
       </p>
     </div>
@@ -172,7 +172,7 @@ nav_order: 5
       <div class="talk-title">Crypto/Applied Crypto Seminar, CMU</div>
       <p class="talk-description">
         The talk was given at a seminar series organized at <a href="https://sites.google.com/view/crypto-seminar/home">Carnegie Mellon University, USA</a>,
-        and it was on my work on Lockable Signatures for Blockchains: Scriptless Scripts for All Signatures that will appear at at IEEE Security &amp; Privacy 2021.
+        and it was on my work on Lockable Signatures for Blockchains: Scriptless Scripts for All Signatures that appeared at IEEE Security &amp; Privacy 2021.
         Another version of the talk was also given at <a href="https://tech.cornell.edu/">Cornell Tech</a>.
       </p>
     </div>
@@ -201,7 +201,7 @@ nav_order: 5
     <div class="talk-content">
       <div class="talk-title">Monero Konferenco 2019</div>
       <p class="talk-description">
-        The talk was on my work, Omniring, that is a proposal to improving the security and performance of the transaction scheme of Monero.
+        The talk was on my work, Omniring, that is a proposal to improve the security and performance of the transaction scheme of Monero.
         The academic work was <a href="{{ '/publications/' | relative_url }}">published</a> at ACM CCS 2019.
       </p>
     </div>

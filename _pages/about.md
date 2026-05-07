@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: false
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +26,16 @@ latest_posts:
 
 I am a Lecturer at the School of Computer Science at the University of Sydney, where I am part of the [SACT group](https://usyd-sact.github.io), the [cybersecurity cluster](https://www.sydney.edu.au/engineering/our-research/data-science-and-computer-engineering/centre-for-distributed-and-high-performance-computing/cybersecurity.html), and the [Sydney Blockchain Centre](https://usyd-desci.github.io/index.html).
 
-**Hiring Ph.D. students!** See [Join my group](/join-my-group/) for details.
+My research is in classical and post-quantum cryptography, with a particular focus on blockchains, cryptocurrencies, fairness in multi-party computation, and cryptographic systems that bridge rigorous theory and real-world deployment.
 
-My research is in classical and post-quantum cryptography, and in cryptographic applications to blockchains, cryptocurrencies, and fairness in multi-party computation. Broadly, I enjoy working on problems where rigorous cryptographic theory meets systems that people will one day use.
+## For students
 
-Before joining the University of Sydney, my academic journey has taken me across several places that I remain very proud of. I was a postdoctoral fellow at NTT Research. Prior to that, I was at Carnegie Mellon University working with [Elaine Shi](http://elaineshi.com/). I completed my Ph.D. at the Chair of Applied Cryptography at [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.eu), Germany, under the supervision of [Dominique Schröder](https://dominique-schroeder.de/). I received my M.Sc. in Computer Science from [Saarland University](https://www.uni-saarland.de/en/home.html), Germany, and my B.Tech. from the [National Institute of Technology, Trichy](https://www.nitt.edu), India. I also have deep affection for the schools that shaped my early years: [DAV Boys Senior Secondary School, Gopalapuram, Chennai](https://bgpm.davchennai.org), where I studied from 2008 to 2011, and [DAV BHEL School, Ranipet](https://bhelranipet.davchennai.org), where I spent my formative school years from 1997 to 2008.
+I am actively **looking for PhD, honours, and research-oriented undergraduate students** interested in cryptography, game theory, and blockchains. You do not need to arrive as a cryptographer already. Curiosity, mathematical maturity, and persistence matter much more.
+
+If you enjoy turning “this should work” into “this provably works,” see [join](/join/) to come work with me.
+
+## For collaborators
+
+I am interested in collaborations at the intersection of security, privacy, and fairness, especially around distributed cryptography, fair exchange, blockchain protocols, and post-quantum systems.
+
+I am particularly excited by problems where formal cryptographic guarantees must coexist with deployable systems and realistic incentives.
