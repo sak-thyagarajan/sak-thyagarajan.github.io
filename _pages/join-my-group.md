@@ -115,7 +115,10 @@ nav_order: 1
     <h2>How to reach out</h2>
 
     <p>
-      Email is best. To make sure your message does not get lost, please use a clear
+    Email is best. Before emailing, you may want to read one paper from the area that interests you and tell me what you found exciting, confusing, or questionable. A thoughtful paragraph is more useful than a generic statement of interest. </p>
+
+    <p>
+       To make sure your message does not get lost, please use a clear
       subject line:
     </p>
 
