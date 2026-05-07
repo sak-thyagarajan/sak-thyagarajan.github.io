@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NDSS":
+  color: "#A46559"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE SP":
+  color: "#956D50"
 
-"Vision":
-  color: "#009f36"
+"CCS":
+  color: "#88734A"
+
+"CSF":
+  color: "#787941"
+
+"FC":
+  color: "#697D43"
+
+"EUROCRYPT":
+  color: "#478347"
+
+"CRYPTO":
+  color: "#9362AB"
+
+"PKC":
+  color: "#7C6BB0"
+
+"PETS":
+  color: "#6B70AF"
+
+"ACNS":
+  color: "#847547"
+
+"ESORICS":
+  color: "#4F7B92"
+
+"CVCBT":
+  color: "#A95F72"

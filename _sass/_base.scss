@@ -1497,3 +1497,336 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+/* Faded site-wide background image */
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.94)),
+    url("/assets/img/background.jpg") center center / cover no-repeat fixed !important;
+}
+
+/* Dark mode version */
+html[data-theme="dark"] body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)),
+    url("/assets/img/background.jpg") center center / cover no-repeat fixed !important;
+}
+
+/* Compact about page so it fits without scrolling */
+body:has(.profile) {
+  .post {
+    margin-bottom: 0;
+  }
+
+  .post-header {
+    margin-bottom: 0.75rem;
+  }
+
+  .post-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .post-description {
+    margin-bottom: 1rem;
+  }
+
+  .profile {
+    margin-bottom: 0.5rem;
+  }
+
+  .profile img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .social {
+    margin-top: 0.5rem;
+  }
+
+  .social .contact-icons {
+    font-size: 2.3rem;
+    line-height: 1;
+  }
+
+  .social .contact-icons a img {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .social .contact-icons a svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .social .contact-note {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+  }
+}
+
+/* Reduce space between navbar/header and page title */
+body.fixed-top-nav > .container.mt-5 {
+  margin-top: 1.25rem !important;
+}
+
+/* Small lucky symbol in navbar */
+.navbar-symbol-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-symbol {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .navbar-symbol {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+/* Join my group page */
+.join-page {
+  max-width: 900px;
+  margin: 0 auto;
+
+  .join-hero {
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.72);
+
+    h1 {
+      margin-bottom: 0.75rem;
+      color: var(--global-theme-color);
+      font-size: 2.4rem;
+    }
+
+    p {
+      font-size: 1.08rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .join-kicker {
+    margin-bottom: 0.4rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .join-section {
+    margin-bottom: 2.5rem;
+
+    h2 {
+      margin-bottom: 0.8rem;
+      color: var(--global-theme-color);
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+  }
+
+  .join-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0;
+
+    &.two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .join-card {
+    padding: 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background-color: var(--global-card-bg-color);
+
+    p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+    }
+  }
+
+  .join-list {
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+  }
+
+  .join-note {
+    margin: 1rem 0;
+    padding: 1rem 1.15rem;
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 10px;
+    background-color: var(--global-card-bg-color);
+  }
+
+  .join-email-box {
+    margin: 1.25rem 0;
+    padding: 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background-color: var(--global-card-bg-color);
+
+    code {
+      display: block;
+      margin-bottom: 0.8rem;
+      padding: 0.65rem 0.75rem;
+      white-space: normal;
+    }
+  }
+
+  .join-label {
+    margin-bottom: 0.3rem;
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+html[data-theme="dark"] {
+  .join-page {
+    .join-hero {
+      background-color: rgba(0, 0, 0, 0.45);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .join-page {
+    .join-grid,
+    .join-grid.two {
+      grid-template-columns: 1fr;
+    }
+
+    .join-hero {
+      padding: 1.25rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+/* About page: move profile image closer to the navbar */
+body.fixed-top-nav > .container.mt-5:has(.profile) {
+  margin-top: 1rem !important;
+}
+
+body.fixed-top-nav > .container.mt-5:has(.profile) .profile {
+  margin-top: -1.5rem;
+}
+
+@media (max-width: 576px) {
+  body.fixed-top-nav > .container.mt-5:has(.profile) {
+    margin-top: 1rem !important;
+  }
+
+  body.fixed-top-nav > .container.mt-5:has(.profile) .profile {
+    margin-top: 0;
+  }
+}
+
+/* Publication venue label text color */
+.publications ol.bibliography li .abbr abbr,
+.publications ol.bibliography li .abbr abbr a {
+  color: #111111 !important;
+}
+
+/* Dark mode venue label text color */
+html[data-theme="dark"] .publications ol.bibliography li .abbr abbr,
+html[data-theme="dark"] .publications ol.bibliography li .abbr abbr a {
+  color: #ffffff !important;
+}
+
+/* Better typography for the About page */
+body:has(.profile) .about-bio {
+  font-size: 1rem;
+  line-height: 1.55;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+body:has(.profile) .about-bio p {
+  margin-bottom: 0.75rem;
+}
+
+/* Make the profile image slightly narrower so text has more room */
+body:has(.profile) .profile.float-right {
+  width: 24%;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Do not justify on small screens */
+@media (max-width: 768px) {
+  body:has(.profile) .about-bio {
+    text-align: left;
+    hyphens: none;
+  }
+
+  body:has(.profile) .profile.float-right {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.profile {
+  .social {
+    margin-top: 10px; // Space between image and icons
+    text-align: center;
+
+    .contact-icons {
+      font-size: 1.5rem; // Much smaller for the sidebar
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      a {
+        i::before {
+          color: var(--global-text-color);
+        }
+        &:hover i::before {
+          color: var(--global-theme-color);
+        }
+        
+        // Ensure images/SVGs (like DBLP/Scholar) scale down
+        img, svg {
+          width: 1.5rem !important;
+          height: 1.5rem !important;
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+}

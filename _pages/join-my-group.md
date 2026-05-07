@@ -4,19 +4,15 @@ title: Join my group
 permalink: /join-my-group/
 description: Prospective PhD, Honours, MSc, and research students
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <div class="join-page">
-
-  <section class="join-hero">
-    <div class="join-kicker">Prospective students and collaborators</div>
-    <h1>Join my group</h1>
     <p>
       Welcome! If you like security, cryptography, and blockchains, and you enjoy turning
       “this should work” into “this provably works”, you might fit right in.
     </p>
-  </section>
+ 
 
   <section class="join-section">
     <h2>What we work on</h2>
