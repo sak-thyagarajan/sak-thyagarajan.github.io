@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received **SUI Academic Research Award!** 
+Received **SUI Academic Research Award!**
