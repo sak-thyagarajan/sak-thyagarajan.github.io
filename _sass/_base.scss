@@ -220,7 +220,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
 
     .address {
       p {
@@ -1542,6 +1542,7 @@ body:has(.profile) {
   .profile img {
     max-height: 300px;
     object-fit: cover;
+    transform: scale(1.07);
   }
 
   .social {
