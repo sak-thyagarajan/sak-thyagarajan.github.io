@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-notes",
-          title: "Notes",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-people",
           title: "People",
           description: "",
@@ -81,7 +74,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-granted-stellar-development-foundation-research-award-2026-for-research-in-scalable-threshold-cryptography",
+            },},{id: "news-received-sui-academic-research-award",
+          title: 'Received SUI Academic Research Award!',
+          description: "",
+          section: "News",},{id: "news-paper-on-game-theoretic-fair-coin-tossing-accepted-at-eurocrypt-2026",
+          title: 'Paper on game-theoretic fair coin tossing accepted at Eurocrypt 2026!',
+          description: "",
+          section: "News",},{id: "news-granted-stellar-development-foundation-research-award-2026-for-research-in-scalable-threshold-cryptography",
           title: 'Granted Stellar Development Foundation Research Award 2026 for research in Scalable Threshold Cryptography!...',
           description: "",
           section: "News",},{id: "news-granted-amazon-research-award-2026-for-research-in-post-quantum-threshold-cryptography",
