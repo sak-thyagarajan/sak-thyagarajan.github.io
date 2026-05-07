@@ -13,7 +13,6 @@ nav_order: 1
       “this should work” into “this provably works”, you might fit right in.
     </p>
 
-
   <section class="join-section">
     <h2>What we work on</h2>
     <p>
