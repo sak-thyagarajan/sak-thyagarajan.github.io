@@ -36,6 +36,4 @@ If you enjoy turning “this should work” into “this provably works,” see 
 
 ## For collaborators
 
-I am interested in collaborations at the intersection of security, privacy, and fairness, especially around distributed cryptography, fair exchange, blockchain protocols, and post-quantum systems.
-
-I am particularly excited by problems where formal cryptographic guarantees must coexist with deployable systems and realistic incentives.
+I am interested in collaborations at the intersection of security, privacy, and fairness, especially around distributed cryptography, fair exchange, blockchain protocols, and post-quantum systems. I am particularly excited by problems where formal cryptographic guarantees must coexist with deployable systems and realistic incentives.

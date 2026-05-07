@@ -2,10 +2,10 @@
 layout: default
 permalink: /blog/
 title: Notes
-nav: true
+nav: false
 nav_order: 3
 pagination:
-  enabled: true
+  enabled: false
 ---
 
 <div class="post">
