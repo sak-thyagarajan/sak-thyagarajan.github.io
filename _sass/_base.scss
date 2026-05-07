@@ -1819,9 +1819,10 @@ body:has(.profile) .profile.float-right {
         &:hover i::before {
           color: var(--global-theme-color);
         }
-        
+
         // Ensure images/SVGs (like DBLP/Scholar) scale down
-        img, svg {
+        img,
+        svg {
           width: 1.5rem !important;
           height: 1.5rem !important;
           margin-bottom: 0 !important;

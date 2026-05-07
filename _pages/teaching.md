@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description:
 nav: true
 nav_order: 2
 ---
@@ -37,11 +37,8 @@ The course is informed by classic algorithm-design material and modern expositio
 
 ## Previous teaching
 
-
-
 - **CSEC5615: Cloud Security** — 2025
 - **COMP2022: Models of Computation** — co-taught, 2024
-
 
 At FAU, I was a teaching assistant for several courses and seminars in cryptography, cryptocurrencies, and theoretical computer science, including:
 

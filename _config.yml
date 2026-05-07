@@ -7,15 +7,16 @@ first_name: Sri AravindaKrishnan
 middle_name:
 last_name: Thyagarajan
 contact_note: >
-  Email is the best way to reach me: aravind [dot] last-name [at] sydney [dot] edu [dot] au 
+  Email is the best way to reach me: aravind [dot] last-name [at] sydney [dot] edu [dot] au
 # :contentReference[oaicite:2]{index=2}
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a Lecturer at the School of Computer Science, University of Sydney, Australia, part of the cybersecurity cluster and the Sydney Blockchain Centre.
-  My research interests include (classical and post-quantum) cryptography and its applications, including blockchains, cryptocurrencies, and fairness in multi-party computation. 
+  My research interests include (classical and post-quantum) cryptography and its applications, including blockchains, cryptocurrencies, and fairness in multi-party computation.
 # :contentReference[oaicite:3]{index=3}
-footer_text: 
-keywords: cryptography, post-quantum cryptography, cybersecurity, blockchains, cryptocurrencies, multi-party computation # :contentReference[oaicite:4]{index=4}
- # add your own keywords or leave empty
+footer_text:
+keywords:
+  cryptography, post-quantum cryptography, cybersecurity, blockchains, cryptocurrencies, multi-party computation # :contentReference[oaicite:4]{index=4}
+  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -228,9 +229,6 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-
-
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

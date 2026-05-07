@@ -12,7 +12,7 @@ nav_order: 1
       Welcome! If you like security, cryptography, and blockchains, and you enjoy turning
       “this should work” into “this provably works”, you might fit right in.
     </p>
- 
+
 
   <section class="join-section">
     <h2>What we work on</h2>
@@ -51,6 +51,7 @@ nav_order: 1
       If you enjoy proofs, protocols, and occasionally proving that a “clever hack” is
       actually a bug, we will probably get along.
     </p>
+
   </section>
 
   <section class="join-section">
@@ -70,6 +71,7 @@ nav_order: 1
       comfort with mathematical thinking, some programming experience, curiosity,
       persistence, and a willingness to read carefully.
     </div>
+
   </section>
 
   <section class="join-section">
@@ -107,6 +109,7 @@ nav_order: 1
         </p>
       </div>
     </div>
+
   </section>
 
   <section class="join-section">
@@ -144,6 +147,7 @@ nav_order: 1
     <div class="join-note">
       I will always prefer a clear message over a long one. Concise is the mantra.
     </div>
+
   </section>
 
 </div>

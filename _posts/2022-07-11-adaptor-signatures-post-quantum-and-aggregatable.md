@@ -8,7 +8,7 @@ categories: tech-blog
 math: true
 ---
 
-**TL;DR:** We have a new paper, *[Lattice-Based SNARKs: Publicly Verifiable, Preprocessing, and Recursively Composable](https://eprint.iacr.org/2022/941)*, with [Martin R. Albrecht](https://malb.io), [Valerio Cini](https://sites.google.com/view/valeriocini/home), [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/), and [Russell W.F. Lai](https://russell-lai.hk), at IACR CRYPTO 2022. In this paper, we propose a new lattice-based vector commitment (VC) and subsequently a succinct non-interactive argument of knowledge (SNARK) proof that natively supports ring relations.
+**TL;DR:** We have a new paper, _[Lattice-Based SNARKs: Publicly Verifiable, Preprocessing, and Recursively Composable](https://eprint.iacr.org/2022/941)_, with [Martin R. Albrecht](https://malb.io), [Valerio Cini](https://sites.google.com/view/valeriocini/home), [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/), and [Russell W.F. Lai](https://russell-lai.hk), at IACR CRYPTO 2022. In this paper, we propose a new lattice-based vector commitment (VC) and subsequently a succinct non-interactive argument of knowledge (SNARK) proof that natively supports ring relations.
 
 As applications, we show how one can aggregate GPV signatures, gaining in both compactness and verification. We also propose how one can build adaptor signatures for GPV signatures, which has several applications in blockchains and cryptocurrencies. For more details, you can check the [paper](https://eprint.iacr.org/2022/941). For simpler explanations on our SNARK, you can check out [Russell's post](https://russell-lai.hk/2022/07/11/lattice-based-snarks-from-krisis-of-knowledge/), and for details about new lattice techniques and a new assumption called kRISIS, you can check out [Martin's post](https://martinralbrecht.wordpress.com). In this post, we will see how we build adaptor signatures for GPV.
 
@@ -24,7 +24,7 @@ $$
 \mathsf{DS} = (\mathsf{KGen}, \mathsf{Sign}, \mathsf{Verify})
 $$
 
-and an NP relation $R$. Using adaptor signatures, we can generate a partial signature referred to as a *pre-signature* $\hat{\sigma}$ on a transaction message $m$, using the signing key $\mathsf{sk}$ and a statement $Y$ in the NP language corresponding to the relation $R$. This is done using a pre-sign algorithm as follows:
+and an NP relation $R$. Using adaptor signatures, we can generate a partial signature referred to as a _pre-signature_ $\hat{\sigma}$ on a transaction message $m$, using the signing key $\mathsf{sk}$ and a statement $Y$ in the NP language corresponding to the relation $R$. This is done using a pre-sign algorithm as follows:
 
 $$
 \hat{\sigma} \leftarrow \mathsf{pSign}(\mathsf{sk}, m, Y)
@@ -142,7 +142,7 @@ $$
 \left\{
 (\mathbf{A}, \mathbf{v}')
 \mid
-\exists \mathbf{u}' \ \text{s.t.} \ 
+\exists \mathbf{u}' \ \text{s.t.} \
 \mathbf{A} \cdot \mathbf{u}' = \mathbf{v}'
 \land
 \lVert \mathbf{u}' \rVert \leq \beta^*

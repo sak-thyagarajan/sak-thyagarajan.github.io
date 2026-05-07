@@ -114,7 +114,7 @@ nav_order: 5
     font-size: 0.75rem;
   }
 }
-</style> 
+</style>
 
 <div class="talks-section">
 

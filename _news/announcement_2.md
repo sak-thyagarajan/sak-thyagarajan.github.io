@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-
 Granted **Amazon Research Award 2026** for research in Post Quantum Threshold Cryptography!

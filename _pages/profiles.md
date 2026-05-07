@@ -158,7 +158,6 @@ nav_order: 4
   </ul>
 </div>
 
-
 <div class="people-section">
   <h2>Visitors</h2>
 

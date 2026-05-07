@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-
 Granted **Stellar Development Foundation Research Award 2026** for research in Scalable Threshold Cryptography!

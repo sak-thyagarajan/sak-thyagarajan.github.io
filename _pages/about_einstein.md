@@ -55,6 +55,7 @@ nav_order: 2
       If you enjoy proofs, protocols, and occasionally proving that a “clever hack” is
       actually a bug, we will probably get along.
     </p>
+
   </section>
 
   <section class="join-section">
@@ -74,6 +75,7 @@ nav_order: 2
       comfort with mathematical thinking, some programming experience, curiosity,
       persistence, and a willingness to read carefully.
     </div>
+
   </section>
 
   <section class="join-section">
@@ -111,6 +113,7 @@ nav_order: 2
         </p>
       </div>
     </div>
+
   </section>
 
   <section class="join-section">
@@ -148,6 +151,7 @@ nav_order: 2
     <div class="join-note">
       I will always prefer a clear message over a long one. Concise is the mantra.
     </div>
+
   </section>
 
 </div>

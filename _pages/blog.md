@@ -23,9 +23,9 @@ pagination:
 
 <ul class="post-list">
 
-  {% assign postlist = site.posts %}
+{% assign postlist = site.posts %}
 
-  {% for post in postlist %}
+{% for post in postlist %}
 
     {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% assign year = post.date | date: "%Y" %}
@@ -71,7 +71,7 @@ pagination:
       </p>
     </li>
 
-  {% endfor %}
+{% endfor %}
 
 </ul>
 
