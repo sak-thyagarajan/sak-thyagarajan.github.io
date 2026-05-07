@@ -9,23 +9,30 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-join-my-group",
-          title: "Join my group",
-          description: "Prospective PhD, Honours, MSc, and research students",
+  },{id: "nav-bio",
+          title: "Bio",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/join-my-group/";
+            window.location.href = "/bio/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Research themes and ongoing projects.",
+        },{id: "nav-join",
+          title: "Join",
+          description: "Information for prospective PhD, Honours, MSc, and research students",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/join/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by categories in reversed chronological order.",
+          description: "Publications by year, in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
