@@ -32,7 +32,7 @@ My research is in classical and post-quantum cryptography, with a particular foc
 
 I am actively **looking for PhD, honours, and research-oriented undergraduate students** interested in cryptography, game theory, and blockchains. You do not need to arrive as a cryptographer already. Curiosity, mathematical maturity, and persistence matter much more.
 
-If you enjoy turning “this should work” into “this provably works,” see [join](/join/) to come work with me.
+If you enjoy turning “this should work” into “this provably works,” come [join](/join/) my group.
 
 ## For collaborators
 
