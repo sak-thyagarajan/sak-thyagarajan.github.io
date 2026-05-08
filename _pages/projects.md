@@ -224,6 +224,25 @@ nav_order: 2
   </div>
 </button>
 
+<button class="research-box" type="button" data-modal="privacy">
+  <div class="research-icon-wrap">
+    <img class="research-icon" src="{{ '/assets/img/projects/privacy.png' | relative_url }}" alt="" aria-hidden="true">
+  </div>
+
+  <div class="research-box-body">
+    <h3>Privacy-Preserving Applications</h3>
+    <p>
+      How can payments, data sharing, and distributed applications reveal as little metadata as possible?
+    </p>
+    <div class="research-tags">
+      <span class="research-tag">Private payments</span>
+      <span class="research-tag">Metadata privacy</span>
+      <span class="research-tag">Zero-knowledge proofs</span>
+      <span class="research-tag">Secure data sharing</span>
+    </div>
+  </div>
+</button>
+
   <button class="research-box" type="button" data-modal="blockchains">
   <div class="research-icon-wrap">
     <img class="research-icon" src="{{ '/assets/img/projects/blockchains.png' | relative_url }}" alt="" aria-hidden="true">
@@ -311,6 +330,46 @@ nav_order: 2
     <ul>
       <li>Introductory material on secure multi-party computation and fairness (See Dan Boneh and Ivan Damgård's work).</li>
       <li>Recent papers on fair MPC, timed cryptography, optimistic fairness, or blockchain-assisted fairness.</li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="research-modal" id="privacy" aria-hidden="true">
+  <div class="research-modal-content" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <button class="research-close" type="button" aria-label="Close">&times;</button>
+    <h2 id="privacy-title">Privacy-Preserving Applications</h2>
+
+    <p>
+      Modern applications leak information even when the underlying data is encrypted or hidden.
+      A payment, query, lookup, or data-sharing request can reveal sensitive metadata: who interacted with whom,
+      whether an action took place, what kind of information was requested, or when a transaction occurred.
+      This theme studies cryptographic tools for minimizing such leakage in practical systems.
+    </p>
+
+    <h4>Example questions</h4>
+    <ul>
+      <li>Can payment systems hide not only the payment details, but also whether a particular action occurred?</li>
+      <li>How can users query or purchase information from a data provider without revealing what they are interested in?</li>
+      <li>What metadata is still leaked by privacy-preserving protocols, and can we formally quantify or reduce it?</li>
+      <li>Can we design efficient protocols for private data sharing, private lookups, or privacy-preserving conditional payments?</li>
+    </ul>
+
+    <h4>Useful background</h4>
+    <ul>
+      <li>Basic cryptography.</li>
+      <li>Some familiarity with blockchains, payments, or distributed systems is useful but not required at the start.</li>
+      <li>Comfort with formal security definitions and adversarial modelling is helpful.</li>
+    </ul>
+
+    <h4>Project style</h4>
+    <p>
+      A mix of protocol design, security definitions, and cryptographic proofs.
+    </p>
+
+    <h4>Starter reading</h4>
+    <ul>
+      <li>Introductory material on zero-knowledge proofs, private information retrieval, anonymous credentials, and secure computation.</li>
     </ul>
 
   </div>

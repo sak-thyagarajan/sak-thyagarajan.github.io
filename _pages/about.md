@@ -26,7 +26,7 @@ latest_posts:
 
 I am a Lecturer at the School of Computer Science at the University of Sydney, where I am part of the [SACT group](https://usyd-sact.github.io), the [cybersecurity cluster](https://www.sydney.edu.au/engineering/our-research/data-science-and-computer-engineering/centre-for-distributed-and-high-performance-computing/cybersecurity.html), and the [Sydney Blockchain Centre](https://usyd-desci.github.io/index.html).
 
-My research is in classical and post-quantum cryptography, with a particular focus on blockchains, fairness in multi-party computation, and game-theoretic mechanism design for decentralised applications that bridge rigorous theory and real-world deployment.
+My research is in classical and post-quantum cryptography, with a particular focus on blockchains, fairness in multi-party computation, privacy-preserving applications, and game-theoretic mechanism design for decentralised applications that bridge rigorous theory and real-world deployment.
 
 ## For students
 
