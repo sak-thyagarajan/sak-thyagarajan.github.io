@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-01-31 07:59:00-0400
+date: 2026-04-10 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-Paper on game-theoretic fair coin tossing accepted at **Eurocrypt 2026!**
+Granted **Amazon Research Award 2026** for research in Post Quantum Threshold Cryptography!

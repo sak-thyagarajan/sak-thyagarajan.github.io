@@ -149,6 +149,14 @@ nav_order: 4
 </div>
 
 <div class="people-section">
+  <h2>Masters students</h2>
+
+  <ul class="people-list">
+    <li>Ankit Kapoor (March 2025)</li>
+  </ul>
+</div>
+
+<div class="people-section">
   <h2>Honours students</h2>
 
   <ul class="people-list">
@@ -162,6 +170,7 @@ nav_order: 4
   <h2>Visitors</h2>
 
 <ul class="people-list">
-    <li><a href="https://glgreiner.github.io">Garrett Greiner</a> (May 2026–, PhD student, University of Utah)</li>
+    <li><a href="https://glgreiner.github.io">Garrett Greiner</a> (May 2026 - Jul 2026, PhD student, University of Utah)</li>
+    <li><a href="https://glgreiner.github.io">Ethan Lee</a> (Jul 2026 - Aug 2026, PhD student, University of Maryland)</li>
   </ul>
 </div>
