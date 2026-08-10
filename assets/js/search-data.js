@@ -74,10 +74,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-received-sui-academic-research-award",
-          title: 'Received SUI Academic Research Award!',
-          description: "",
-          section: "News",},{id: "news-paper-on-game-theoretic-fair-coin-tossing-accepted-at-eurocrypt-2026",
+            },},{id: "news-paper-on-game-theoretic-fair-coin-tossing-accepted-at-eurocrypt-2026",
           title: 'Paper on game-theoretic fair coin tossing accepted at Eurocrypt 2026!',
           description: "",
           section: "News",},{id: "news-granted-stellar-development-foundation-research-award-2026-for-research-in-scalable-threshold-cryptography",
@@ -88,6 +85,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-papers-accepted-at-acm-ccs-2026-and-popets-2026",
           title: 'Papers accepted at ACM CCS 2026 and PoPETS 2026!',
+          description: "",
+          section: "News",},{id: "news-paper-on-secure-atomic-swap-with-external-incentives-accepted-at-disc-2026",
+          title: 'Paper on “Secure Atomic Swap with External Incentives” accepted at DISC 2026',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
